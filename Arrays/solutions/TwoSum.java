@@ -1,24 +1,4 @@
-/**
- * Problem: Two Sum
- * Source: LeetCode #1
- * Topic: Arrays / HashMap
- * Difficulty: Easy
- *
- * Approach:
- * Use a HashMap to store each number's index as we iterate.
- * For each element, check if (target - current) already exists in the map.
- * If yes, we found our pair in a single pass.
- *
- * Time Complexity: O(n)
- * Space Complexity: O(n)
- *
- * Notes / What I learned:
- * Brute force is O(n^2) with nested loops. The HashMap trick trades
- * space for time — a pattern that shows up constantly in array problems.
- */
-
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TwoSum {
     public static void main(String[] args) {
